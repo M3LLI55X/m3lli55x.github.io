@@ -17,13 +17,14 @@ Many people love New York City, but nobody likes car accidents. Road safety is b
 
 The data set used is from the city government's OpenData website, where a lot of useful data sets archived by city government are provided. The NYC motor vehicle collision data set, contains up-to-date collision record ever since July 1st, 2012, and each record shows the date, time, location, the number of injured and/or killed people
 
-### Motivation
+### MOTIVATION
 
 How is the data look like on a map? Wherer are  more dangerous/risky regions? 
 Can we identify dangerous spots/areas?
-What is the trend of total number of collisions from year to year? What can we predict for future?
+What is the trend of total number of collisions? What can we predict for future?
 What is the composition ratio of different types of victims (pedestrian, cyclist, motorist) and different levels of severities (no hurt, injured, lethal)?
 Was the situation different for different boroughs (5 boroughs of NYC)? What about different? ...
+
 
 ### Data Analysis
 
@@ -31,5 +32,13 @@ The figures below show the total number of collisions with respect to different 
 
 For all types of traffic accidents resulting in injuries, the highest number of accidents occurred in the evenfall, while motorist and cyclist fatalities were higher in the middle of the night.
 This is instructive for the corresponding prevention and assistance, and worthy of further investigation by relevant departments.
+
+### Interactive Map Tool
+
+To help easily visualize and explore the spatial details of the collision data, a comprehensive and flexible interactive map tool is developed using Leaflet.
+it can show heat map, cluster map and position. And we can see which borough has the most frequent collision
+
+
+
 
 
