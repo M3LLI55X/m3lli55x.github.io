@@ -23,13 +23,14 @@ How is the data look like on a map? Wherer are  more dangerous/risky regions?
 Can we identify dangerous spots/areas?
 What is the trend of total number of collisions? What can we predict for future?
 What is the composition ratio of different types of victims (pedestrian, cyclist, motorist) and different levels of severities (no hurt, injured, lethal)?
-Was the situation different for different boroughs (5 boroughs of NYC)? What about different? ...
-
+Was the situation different for different boroughs (5 boroughs of NYC)? What about different? ... <sup>[2]</sup>
 
 ### Interactive Map Tool
 
 To help easily visualize and explore the spatial details of the collision data, a comprehensive and flexible interactive map tool is developed using Leaflet.
 it can show heat map, cluster map and position. And we can see which borough has the most frequent collision
+
+<iframe src="https://raw.githack.com/M3LLI55X/m3lli55x.github.io/master/webpages/mar.html" width="680" height="400"> </iframe>
 
 ### Data Analysis
 
@@ -45,13 +46,10 @@ More intuitive Map display in the Interactive Map section.
 * Time Factors
 
 The figures below show the total number of collisions with respect to different years (and boroughs), month in a year respectively.
-
-Yearly-wise, there is an gradual collision increase since 2013, while a significant drop after 2016, but then increase again at 2017.
-Month, weekday, hour factors show results generally well aligned w/ common sense.
-### Interactive Map Tool
-
-To help easily visualize and explore the spatial details of the collision data, a comprehensive and flexible interactive map tool is developed using Leaflet.
-it can show heat map, cluster map and position. And we can see which borough has the most frequent collision
+<iframe src="https://raw.githack.com/M3LLI55X/m3lli55x.github.io/master/webpages/month.html" width="680" height="400"> </iframe>
+<iframe src="https://raw.githack.com/M3LLI55X/m3lli55x.github.io/master/webpages/year.html" width="680" height="400"> </iframe>
+Yearly-wise, there is an gradual collision increase since 2013, while a obvious drop after 2016, but then increase again at 2017.
+Month factor show results generally well aligned with common sense.
 
 
 
