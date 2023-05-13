@@ -52,9 +52,11 @@ More intuitive Map display in the Interactive Map section.
 
 The figures below show the total number of collisions with respect to different years (and boroughs), month in a year respectively.
 <iframe src="https://raw.githack.com/M3LLI55X/m3lli55x.github.io/master/webpages/month.html" width="680" height="400"> </iframe>
+From the above picture, we could see Staten Island always has the lowest number of accidents, while Brooklyn always has the highest number of accidents. We also could see there is a very interesting phenomenon that is each curve shows a similar trend. Month factor show results generally well aligned with common sense.
+
 <iframe src="https://raw.githack.com/M3LLI55X/m3lli55x.github.io/master/webpages/year.html" width="680" height="400"> </iframe>
-Yearly-wise, there is an gradual collision increase since 2013, while a obvious drop after 2016, but then increase again at 2017.
-Month factor show results generally well aligned with common sense.
+Yearly-wise, there is an gradual collision increase since 2013, while a obvious drop after 2016, but then increase again at 2017. We guess the goverment took some effective measures to decrease the number of collisions at 2020, since far fewer collisions were recorded than in previous years. Also, maybe because people recognize the risk of motor vehicle collisions.
+
 
 ### Machine Learning
 
