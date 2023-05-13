@@ -36,6 +36,12 @@ This is instructive for the corresponding prevention and assistance, and worthy 
 The accident statistics of the borough are too extensive to reflect a good reference value. Therefore, it makes sense to count accidents down to street level. 
 The keyword cloud map below counts and shows the 25 streets with the highest number of accidents, which helps the government to spend its budget more purposefully.
 
+* Time Factors
+
+The figures below show the total number of collisions with respect to different years (and boroughs), month in a year respectively.
+
+Yearly-wise, there is an gradual collision increase since 2013, while a significant drop after 2016, but then increase again at 2017.
+Month, weekday, hour factors show results generally well aligned w/ common sense.
 ### Interactive Map Tool
 
 To help easily visualize and explore the spatial details of the collision data, a comprehensive and flexible interactive map tool is developed using Leaflet.
