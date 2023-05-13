@@ -293,3 +293,7 @@ a:hover {
   font-size: 0.95em;
   color: #777;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

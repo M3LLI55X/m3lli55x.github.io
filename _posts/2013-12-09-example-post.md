@@ -43,7 +43,7 @@ The accident statistics of the borough are too extensive to reflect a good refer
 The keyword cloud map below counts and shows the 25 streets with the highest number of accidents, which helps the government to spend its budget more purposefully.
 More intuitive Map display in the Interactive Map section.
 
-* Time Factors
+#### Time Factors
 
 The figures below show the total number of collisions with respect to different years (and boroughs), month in a year respectively.
 <iframe src="https://raw.githack.com/M3LLI55X/m3lli55x.github.io/master/webpages/month.html" width="680" height="400"> </iframe>
