@@ -42,5 +42,12 @@ The accident statistics of the borough are too extensive to reflect a good refer
 The keyword cloud map below counts and shows the 25 streets with the highest number of accidents, which helps the government to spend its budget more purposefully.
 More intuitive Map display in the Interactive Map section.
 
+### Interactive Map Tool
+
+To help easily visualize and explore the spatial details of the collision data, a comprehensive and flexible interactive map tool is developed using Leaflet.
+it can show heat map, cluster map and position. And we can see which borough has the most frequent collision
+
+
+
 
 
