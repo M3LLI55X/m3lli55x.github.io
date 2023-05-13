@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Example post
+title: Car collision in NYC
 cover: cover.jpg
-date:   2013-12-09 12:00:00
+date:   2023-5-1
 categories: posts
 ---
 
-## Introducing Flex, a Jekyll theme
+## title 1
 
 Flex is a minimalist, responsive theme based on the website, [The Development](http://thedevelopment.co).
 
-## Open Sourced on GitHub
+## title 2
 
 Flex is open sourced on GitHub and is licensed under the [MIT License](http://opensource.org/licenses/MIT). Feel free to contribute to it anytime!

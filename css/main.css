@@ -97,7 +97,7 @@ a:hover {
 }
 
 .posts {
-  border-top: 1px solid #e7e7e7;
+  border-top: 1px solid #ffffff;
   margin-top: 1em;
   padding-top: 1.5em;
   padding-bottom: 1.25em;
@@ -105,7 +105,7 @@ a:hover {
 
 .footer {
   font-size: 0.95em;
-  border-top: 1px solid #e7e7e7;
+  /* border-top: 1px solid #e7e7e7; */
   padding-top: 1.25em;
   padding-bottom: 1.5em;
   overflow: hidden;
@@ -223,10 +223,10 @@ a:hover {
 
 .sidebar {
   float: left;
-  width: 14%;
+  width: 30%;
   padding-left: 11em;
   padding-right: 2.125em;
-  border-right: 1px solid #e7e7e7;
+  border-right: 1px solid #ffffff;
 }
 
 .content {
