@@ -30,7 +30,6 @@ Was the situation different for different boroughs (5 boroughs of NYC)? What abo
 To help easily visualize and explore the spatial details of the collision data, a comprehensive and flexible interactive map tool is developed using Leaflet.
 it can show heat map, cluster map and position. And we can see which borough has the most frequent collision
 
-
-
+<iframe height=850 width=90% src="https://drive.google.com/file/d/1P4jW-KpPiyJyT11dBEqVaadAcS9iQEdy/view?usp=sharing" frameborder=0 allowfullscreen> </iframe>
 
 
