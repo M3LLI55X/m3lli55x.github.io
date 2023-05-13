@@ -25,6 +25,11 @@ What is the trend of total number of collisions from year to year? What can we p
 What is the composition ratio of different types of victims (pedestrian, cyclist, motorist) and different levels of severities (no hurt, injured, lethal)?
 Was the situation different for different boroughs (5 boroughs of NYC)? What about different? ...
 
+### Data Analysis
 
+The figures below show the total number of collisions with respect to different type of accident by hour in a day.
+
+For all types of traffic accidents resulting in injuries, the highest number of accidents occurred in the evenfall, while motorist and cyclist fatalities were higher in the middle of the night.
+This is instructive for the corresponding prevention and assistance, and worthy of further investigation by relevant departments.
 
 
