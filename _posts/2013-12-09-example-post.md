@@ -15,7 +15,7 @@ Home to the headquarters of the United Nations, New York is an important center 
 ### INTRODUCTION
 Many people love New York City, but nobody likes car accidents. Road safety is by any means a critical issue, and is relevant to everybody's daily life.
 
-The data set used is from the city government's OpenData website, where a lot of useful data sets archived by city government are provided. The NYC motor vehicle collision data set, contains up-to-date collision record ever since July 1st, 2012, and each record shows the date, time, location, the number of injured and/or killed people
+The [Motor-Vehicle-Collisions-Crashes data set](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) used is from the city government's OpenData website, where a lot of useful data sets archived by city government are provided. The NYC motor vehicle collision data set, contains up-to-date collision record ever since July 1st, 2012, and each record shows the date, time, location, the number of injured and/or killed people
 
 ### MOTIVATION
 
@@ -36,12 +36,17 @@ it can show heat map, cluster map and position. And we can see which borough has
 
 The figures below show the total number of collisions with respect to different type of accident by hour in a day.
 
+<iframe src="images\person_day.png" width="800" height="400">
+</iframe>
+
 For all types of traffic accidents resulting in injuries, the highest number of accidents occurred in the evenfall, while motorist and cyclist fatalities were higher in the middle of the night.
 This is instructive for the corresponding prevention and assistance, and worthy of further investigation by relevant departments.
 
 The accident statistics of the borough are too extensive to reflect a good reference value. Therefore, it makes sense to count accidents down to street level. 
 The keyword cloud map below counts and shows the 25 streets with the highest number of accidents, which helps the government to spend its budget more purposefully.
 More intuitive Map display in the Interactive Map section.
+
+![](images\cloud_plot.png)
 
 #### Time Factors
 
@@ -51,12 +56,26 @@ The figures below show the total number of collisions with respect to different 
 Yearly-wise, there is an gradual collision increase since 2013, while a obvious drop after 2016, but then increase again at 2017.
 Month factor show results generally well aligned with common sense.
 
+### Machine Learning
+
+We found there are a lot of missing information about BOROUGH from the dataset, thus, we consider that we could use Machine Learning technologies to get these missing values. To be more specific, we could use the lantitude and longitute information to predict the missing value, that is BOROUGH information. From this dataset, we could see there are 5 borough. This mean that is a classification problem, and we consider to use random forest to solve it.
+
+Random forest works by constructing a large number of decision trees, each of which is trained on a random subset of the input features and a random subset of the training data. When making predictions for new features, the algorithm aggregates the predictions of all the trees in the forest to produce a final prediction.
+
+
+In our dataset, we decided to use random forest to predict the borough information based on the position information for each collision case. The predicted results are shown in the figure below.
+
+<iframe src="images\random_forest.png" width="800" height="400"> </iframe>
+
+<!-- ![](images\random_forest.png) -->
+
+From the above picture, we could see the scatterplot is very similar to the map of New York, which means the classification model that we built has very good predictive performance.
+
 ### Summary and suggestion
 
-Traffic accidents have a negative impact on motor vehicle drivers, cyclists and even pedestrians. Therefore, corresponding prevention is necessary. The following are the corresponding suggestions.
-First, traffic flow and safety can be improved by adding or optimizing traffic signals for those transportation hubs and streets with a high incidence of accidents. 
-Second, advertising, education and enforcement campaigns can be used to raise awareness among motorlists and cyclists to stay focused and obey traffic rules at night.
-Last but not least, we could calling on public transport to reduce the traffic flow during peak times to reduce the risk of accidents.
+Most collisions occur during the weekdays: A majority of motor vehicle collisions in NYC occur on weekdays, with Fridays being the day with the highest number of collisions. Certain intersections are more dangerous than others: Some intersections in NYC are more prone to accidents than others. For example, the intersection of Atlantic Avenue and Pennsylvania Avenue in Brooklyn had the highest number of collisions from 2012 to 2019. Pedestrians and cyclists are particularly vulnerable: The dataset shows that pedestrians and cyclists are disproportionately represented in collisions involving injuries or fatalities, highlighting the need for improved safety measures for vulnerable road users.
+
+Traffic accidents have a negative impact on motor vehicle drivers, cyclists and even pedestrians. Therefore, corresponding prevention is necessary. The following are the corresponding suggestions. First, traffic flow and safety can be improved by adding or optimizing traffic signals for those transportation hubs and streets with a high incidence of accidents. Second, advertising, education and enforcement campaigns can be used to raise awareness among motorlists and cyclists to stay focused and obey traffic rules at night. Last but not least, we could calling on public transport to reduce the traffic flow during peak times to reduce the risk of accidents.
 
 
 
