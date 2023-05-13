@@ -22,6 +22,7 @@ body {
   font-weight: 400;
   font-size: 0.85em;
   overflow: hidden;
+  /* overflow-y: auto; */
 }
 
 a {
@@ -79,6 +80,7 @@ a:hover {
   height: 100%;
   width: 100%;
   line-height: 1.25em;
+  overflow-y: auto;
 }
 
 .title {
@@ -217,7 +219,7 @@ a:hover {
   vertical-align: top;
   height: 100%;
   -webkit-overflow-scrolling: touch;
-  overflow-y: auto;
+  /* overflow-y: hidden; */
   overflow-x: hidden;
 }
 
@@ -227,6 +229,7 @@ a:hover {
   padding-left: 1em;
   padding-right: 2em;
   border-right: 1px solid #ffffff;
+
 }
 
 .content {
