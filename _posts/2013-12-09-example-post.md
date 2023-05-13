@@ -51,7 +51,12 @@ The figures below show the total number of collisions with respect to different 
 Yearly-wise, there is an gradual collision increase since 2013, while a obvious drop after 2016, but then increase again at 2017.
 Month factor show results generally well aligned with common sense.
 
+### Summary and suggestion
 
+Traffic accidents have a negative impact on motor vehicle drivers, cyclists and even pedestrians. Therefore, corresponding prevention is necessary. The following are the corresponding suggestions.
+First, traffic flow and safety can be improved by adding or optimizing traffic signals for those transportation hubs and streets with a high incidence of accidents. 
+Second, advertising, education and enforcement campaigns can be used to raise awareness among motorlists and cyclists to stay focused and obey traffic rules at night.
+Last but not least, we could calling on public transport to reduce the traffic flow during peak times to reduce the risk of accidents.
 
 
 
